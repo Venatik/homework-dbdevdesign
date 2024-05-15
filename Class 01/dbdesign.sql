@@ -7,8 +7,8 @@ CREATE TABLE student (
 	date_of_birth DATE NOT NULL,
 	enrolled_date DATE,
 	gender VARCHAR(10),
-	national_id_number INT,
-	student_card_number INT
+	national_id_number INT UNIQUE,
+	student_card_number INT UNIQUE
 );
 
 SELECT * FROM student;
