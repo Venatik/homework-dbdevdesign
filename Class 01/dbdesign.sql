@@ -66,5 +66,3 @@ CREATE TABLE achievement_type (
 );
 
 SELECT * FROM achievement_type;
-
--- COMPLETE RELATIONSHIPS
